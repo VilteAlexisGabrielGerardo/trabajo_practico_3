@@ -1,0 +1,136 @@
+@charset "UTF-8";
+#encabezado {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.menu {
+    background-color: #808040;
+    overflow: hidden;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu1{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+} 
+.main1 {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* Secciones del contenido principal */
+.inicio {
+  
+    background-color: #80ff80;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Títulos de sección */
+.h2c {
+    font-size: 2em;
+    font-weight: bold;
+    text-align:center;
+}
+
+.h3c {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.texto{
+	margin: 5px;
+	color: black;
+	font-family: Helvetica;
+	font-size: 1.1em;
+}
+
+.ol1 {
+    padding-left: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabla th{
+	 border: 2px solid #000000;
+    padding: 8px;
+}
+.tabla td {
+    border: 2px solid #000000;
+    padding: 8px;
+}
+
+aside1 {
+    float: right;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+/* Enlaces y/o imágenes dentro del contenido adicional */
+.aside1 p{
+	  display: block;
+  		font-family:Helvetica;
+}
+.imagen {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Pie de página */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.link{
+	font-family: Helvetica;
+	font-size : 1 em;
+	color: green;
+}
+.cuerpo{	
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 5px;
+    background-color: #80ff80;
+    font-size: 1 em;
+    text-align:center;
+}
+#encabezado1{
+	font-size:1em;
+	text-align: center;
+	font-weight: bold;
+}
+.linkk{
+	text-align: left;
+	font-size:1em;
+	font-weight: bold;
+}
+.boton{
+background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 20px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
