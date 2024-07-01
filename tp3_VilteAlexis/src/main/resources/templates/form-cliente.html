@@ -1,94 +1,96 @@
-	<link rel="stylesheet" href="../static/css/estilos.css"> 
-		</head>
-		<body class="cuerpo">
-			<header id="encabezado1">
-			<h1>Ingreso de clientes</h1>
-			</header>
-			<form action="#" method="post">
-			
-				<label 	for="dni">Dni:</label>
-				<input  type="number" id="dni" name="dni" required="required">
-				<br>
-				
-				<label for="nombre">Nombre:</label>
-				<input type="text" id="nombre" name="nombre" required="required">
-				<br>
-				
-				<label for="apellido">Apellido:</label>
-				<input type="text" id="apellido" name="apellido" required="required">
-				<br>
-				
-				<label for="fecha">Fecha de Nacimiento:</label>
-				<input type="date" id="fecha" name="fecha" required="required">
-				<br>
-				
-				 <label for="genero">Género:</label>
-
-		        <label for="masculino">Masculino</label>
-		        <input type="radio" id="masculino" name="genero" value="masculino" >
-		        
-		        <label for="femenino">Femenino</label>
-		        <input type="radio" id="femenino" name="genero" value="femenino">
-		     
-		        <label for="x">X</label>
-		        <input type="radio" id="x" name="genero" value="x" >
-		        <br>
-		        
-		        <label for="correo">Correo electrónico:</label>
-			    <input type="email" id="correo" name="correo" required="required">
-			    <br>
-			    
-			    <label for="Domicilio">Domicilio:</label>
-				<input type="text" id="Domiciilio" name="Domicilio" required="required">
-				<br>
-				
-				<label for="Provincia">Provincia en la cual vive:</label>
-				<select id="provincia" name="provincia" required="required">
-					<option value="JUJUY">Jujuy</option>
-					<option value="TUCUMAN">Tucuman</option>
-					<option value="CATAMARCA">Catamarca</option>
-					<option value="CORDOBA">Cordoba</option>
-					<option value="VACIO">Vacio</option>
-				</select><br>
-				
-				<label for="telefono">Numero de Telefono:</label>
-				<input type="number" id="telefono" name="telefono">
-				<br>
-				
-				<label for="interes">Categoria de interes</label>
-				<br>
-				<label for="informatica">Informatica</label>
-				<input type="checkbox" id="informatica" name="informatica">
-
-				<label for="Seguridad">Seguridad</label>
-				<input type="checkbox" id="Seguridad" name="Seguridad">
-				
-				<label for="limpieza">Limpieza</label>
-				<input type="checkbox" id="limpieza" name="limpieza">
-				<br>
-				
-				<label for="sugerencias">Sugerencias para la empresa:</label><br>
-		        <textarea id="sugerencias" name="sugerencias" rows="2" cols="30"></textarea>
-		        <br>
-		        
-		        <label for="contrasenia">Contraseña</label>
-		        <input type="password" id="contrasenia" name="contrasenia" required="required">
-		        <br>
-		        
-				<label for="terminos">Acepto los terminos y condiciones</label>
-				<input type="checkbox" id="terminos" name="terminos" required="required">
-				<br>
-				
-				<label for="info">Acepto recibir informacion</label>
-				<input type="checkbox" id="info" name="info" >
-				<br>
-				
-				<button type="submit" class="boton">Enviar formulario</button>
-			</form>
-		</body>
-		<footer>
-				<ul>
-					<li class="linkk"><a href="https://www.facebook.com/profile.php?id=100004476018508&locale=es_LA">Facebook </a></li>
-				</ul>
-		</footer>
-	</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <title>Ingreso de clientes</title>
+</head>
+<body class="cuerpo">
+    <header id="encabezado1">
+        <h1>Ingreso de clientes</h1>
+    </header>
+    <form action="#" method="post">
+        <label for="dni">DNI:</label>
+        <input type="number" id="dni" name="dni" required="required">
+        <br>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required="required">
+        <br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required="required">
+        <br>
+        
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required="required">
+        <br>
+        
+        <span>Género:</span>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="x">X</label>
+        <input type="radio" id="x" name="genero" value="x">
+        <br>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required="required">
+        <br>
+        
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required="required">
+        <br>
+        
+        <label for="provincia">Provincia en la cual vive:</label>
+        <select id="provincia" name="provincia" required="required">
+            <option value="">Seleccione una provincia</option>
+            <option value="JUJUY">Jujuy</option>
+            <option value="TUCUMAN">Tucuman</option>
+            <option value="CATAMARCA">Catamarca</option>
+            <option value="CORDOBA">Cordoba</option>
+        </select>
+        <br>
+        
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <br>
+        
+        <span>Categoría de interés:</span>
+        <br>
+        <label for="informatica">Informatica</label>
+        <input type="checkbox" id="informatica" name="intereses" value="informatica">
+        <label for="seguridad">Seguridad</label>
+        <input type="checkbox" id="seguridad" name="intereses" value="seguridad">
+        <label for="limpieza">Limpieza</label>
+        <input type="checkbox" id="limpieza" name="intereses" value="limpieza">
+        <br>
+        
+        <label for="sugerencias">Sugerencias para la empresa:</label>
+        <br>
+        <textarea id="sugerencias" name="sugerencias" rows="2" cols="30"></textarea>
+        <br>
+        
+        <label for="contrasenia">Contraseña:</label>
+        <input type="password" id="contrasenia" name="contrasenia" required="required">
+        <br>
+        
+        <label for="terminos">Acepto los términos y condiciones</label>
+        <input type="checkbox" id="terminos" name="terminos" required="required">
+        <br>
+        
+        <label for="info">Acepto recibir información</label>
+        <input type="checkbox" id="info" name="info">
+        <br>
+        
+        <button type="submit" class="boton">Enviar formulario</button>
+    </form>
+    <footer>
+        <ul>
+            <li class="linkk"><a href="https://www.facebook.com/profile.php?id=100004476018508&locale=es_LA">Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
